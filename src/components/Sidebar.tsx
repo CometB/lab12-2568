@@ -52,7 +52,7 @@ export default function Sidebar({ userName, type}: SidebarComponentProps) {
             color="red"
             withBorder
           >
-            <Avatar radius="xl" src="/src/components/Ratana.JPG" />
+            <Avatar radius="xl" src="/Ratana.JPG" />
           </Indicator>
           <Stack>
             <Text> User : {userName} : {type === "admin" ? "Admin" : "Student"} </Text>
